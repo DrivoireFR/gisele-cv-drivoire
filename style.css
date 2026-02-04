@@ -1,0 +1,40 @@
+/*Je ne cibme pas un élément, je configure un paramètre CSS pour la suite */
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto/static/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto/static/Roboto-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+body {
+    margin: 40px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #333333;
+    background-color: #f5f5f5;
+}
+
+#nom {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 24px;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #dddddd;
+}
+
+.section h2 {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
